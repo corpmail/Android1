@@ -30,6 +30,7 @@ public class AndroidTabLayoutActivity extends TabActivity {
         Intent songsIntent = new Intent(this, SongsActivity.class);
         songspec.setContent(songsIntent);
  
+        
         // Tab for Videos
         TabSpec videospec = tabHost.newTabSpec("Videos");
         videospec.setIndicator("Videos");
