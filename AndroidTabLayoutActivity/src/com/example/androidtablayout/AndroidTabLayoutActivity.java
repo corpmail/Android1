@@ -8,6 +8,7 @@ import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
 public class AndroidTabLayoutActivity extends TabActivity {
+	
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,4 +41,5 @@ public class AndroidTabLayoutActivity extends TabActivity {
         tabHost.addTab(songspec); // Adding songs tab
         tabHost.addTab(videospec); // Adding videos tab
     }
+    public static String arrayPeople = "nix";
 }

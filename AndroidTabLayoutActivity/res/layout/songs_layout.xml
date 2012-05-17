@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:orientation="vertical"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent">
- 
-  <!-- Screen Design for the SONGS -->
-  <TextView android:text="SONGS HERE"
-            android:padding="15dip"
-            android:textSize="18dip"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Screen Design for the SONGS -->
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="15dip"
+        android:text="SONGS HERE"
+        android:textSize="18dip" />
+
+    <TextView
+        android:id="@+id/songs_textView1"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/song_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/songs_textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Button" />
+
+</RelativeLayout>
