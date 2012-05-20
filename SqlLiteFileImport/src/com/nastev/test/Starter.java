@@ -140,7 +140,7 @@ public class Starter {
 							req += "'" + splittArray[i] + "'" + ",";
 
 						} else {
-							req += "'" + splittArray[i] + "'" + ")";
+							req += "'" + splittArray[i] + "'" + ");";
 						}
 					}
 
@@ -149,7 +149,6 @@ public class Starter {
 					try {
 						stat.executeUpdate(req);
 					} catch (Exception e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				}
