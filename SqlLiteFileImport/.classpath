@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="my_libs"/>
 	<classpathentry kind="src" path="sqlite_db"/>
 	<classpathentry kind="src" path="cvs_files"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="D:/Java/Eclipse/MyJars/sqlitejdbc-v056.jar"/>
+	<classpathentry kind="lib" path="my_libs/sqlitejdbc-v056.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
