@@ -44,10 +44,10 @@ public class Starter {
 
 		createDB();
 		
-		splitCVS("tbl_bestand","tbl_bestand.csv");
-		splitCVS("tbl_land","tbl_land.csv");
-		splitCVS("tbl_genre","tbl_genre.csv");
-		splitCVS("tbl_autor","tbl_autor.csv");
+		//splitCVS("tbl_bestand","tbl_bestand.csv");
+		//splitCVS("tbl_land","tbl_land.csv");
+		//splitCVS("tbl_genre","tbl_genre.csv");
+		//splitCVS("tbl_autor","tbl_autor.csv");
 		
 		
 	}
